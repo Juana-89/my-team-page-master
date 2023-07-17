@@ -50,3 +50,10 @@ h1 {
 .footer a {
   text-decoration: none;
 }
+
+/* @media (max-width: 576px) {
+  .navbar {
+    justify-content: flex-start !important;
+  }
+
+} */
