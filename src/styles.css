@@ -8,6 +8,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+h1 {
+  font-family: "PT Serif";
+  font-size: 36px !important;
+  font-weight: 700;
+}
+
+.ml-5 {
+  margin-left: 20px !important;
+}
 .welcome .row{
   margin-top: 30px !important;
 }
@@ -23,6 +32,7 @@ body {
   right: 0;
   transform-origin: top right;
   transform: translate(-50%, -50%) rotate(-270deg);
+  text-transform: uppercase;
   margin-left: -100px; 
 }
 
