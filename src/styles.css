@@ -24,7 +24,7 @@ h1 {
   display: block;
   max-width: 70%;
   /* height: 50%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .align-self-center {
@@ -32,19 +32,37 @@ h1 {
   height: 50% !important;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  position: relative;
+
+}
+
 .container__title {
-  top: 0;
-  right: 0;
-  transform-origin: top right;
-  transform: translate(-50%, -50%) rotate(-270deg);
+  position: absolute;
+
+  transform: translateY(-100%) translateX(-50%) rotate(-270deg);
+  
   text-transform: uppercase;
-  margin-left: -100px; 
+  white-space: nowrap;
+  margin-left: 270px;
+  margin-top: -320px; 
+ 
+
+}
+
+.container__p {
+  text-align: right;
+  font-weight: bold;
 }
 
 
 .container__p{
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
 }
 

@@ -1,9 +1,7 @@
 <!-- Please update value in the {}  -->
 
 <h1 align="center">Mi equipo</h1>
-
-<div align="center">
-   Solución del reto de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+<div align="center">Solución del reto de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
