@@ -74,9 +74,54 @@ h1 {
   text-decoration: none;
 }
 
-/* @media (max-width: 576px) {
-  .navbar {
+@media (min-width: 1390px) {
+  /* .navbar {
     justify-content: flex-start !important;
+  } */
+  .container__title{
+    margin-left: 310px;
+    margin-top: -390px;
   }
 
-} */
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1299px) {
+  /* .navbar {
+    justify-content: flex-start !important;
+  } */
+  .container__title{
+    margin-left: 270px;
+    margin-top: -330px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1299px) {
+  /* .navbar {
+    justify-content: flex-start !important;
+  } */
+  .container__title{
+    margin-left: 270px;
+    margin-top: -320px;
+  }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+  /* .navbar {
+    justify-content: flex-start !important;
+  } */
+  .container__title{
+    margin-left: 230px;
+    margin-top: -270px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  /* .navbar {
+    justify-content: flex-start !important;
+  } */
+  .container__title{
+    margin-left: 170px;
+    margin-top: -190px;
+  }
+}
