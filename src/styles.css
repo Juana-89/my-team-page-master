@@ -22,50 +22,63 @@ h1 {
 }
 .row-cols-3 img {
   display: block;
-  max-width: 70%;
+  max-width: 60%;
   /* height: 50%; */
   /* margin: 0 auto; */
 }
 
 .align-self-center {
   margin-top: 150px !important;
-  height: 50% !important;
 }
-
+/* 
 .container {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-
   position: relative;
+} */
 
+
+.col-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.container__p:not(.bottom-card) {
+  margin-top: -150px;
+}
+
+.text-center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  flex-grow: 1;
+  justify-content: flex-center;
 }
 
 .container__title {
-  position: absolute;
-
-  transform: translateY(-100%) translateX(-50%) rotate(-270deg);
-  
+  writing-mode: tb;
+  /* position: relative; */
+  /* top: -80px; */
   text-transform: uppercase;
-  white-space: nowrap;
-  margin-left: 270px;
-  margin-top: -320px; 
- 
-
 }
-
-.container__p {
-  text-align: right;
-  font-weight: bold;
-}
-
 
 .container__p{
-  margin-top: 10px;
+  /* max-width: 300px; */
   text-align: left;
+  margin-right: 120px;
   font-weight: bold;
+
 }
 
+.bottom-card {
+  margin-left: 0px;
+}
 .footer {
   text-align: center;
 }
@@ -73,11 +86,8 @@ h1 {
 .footer a {
   text-decoration: none;
 }
-
+/* 
 @media (min-width: 1390px) {
-  /* .navbar {
-    justify-content: flex-start !important;
-  } */
   .container__title{
     margin-left: 310px;
     margin-top: -390px;
@@ -86,9 +96,6 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1299px) {
-  /* .navbar {
-    justify-content: flex-start !important;
-  } */
   .container__title{
     margin-left: 270px;
     margin-top: -330px;
@@ -96,9 +103,6 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1299px) {
-  /* .navbar {
-    justify-content: flex-start !important;
-  } */
   .container__title{
     margin-left: 270px;
     margin-top: -320px;
@@ -107,9 +111,6 @@ h1 {
 
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
-  /* .navbar {
-    justify-content: flex-start !important;
-  } */
   .container__title{
     margin-left: 230px;
     margin-top: -270px;
@@ -117,11 +118,8 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
-  /* .navbar {
-    justify-content: flex-start !important;
-  } */
   .container__title{
     margin-left: 170px;
     margin-top: -190px;
   }
-}
+} */
