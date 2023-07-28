@@ -32,17 +32,19 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+  You can see my demo in this repository in the [link](https://juana-89.github.io/my-team-page-master/)
 - What was your experience?
+  I can say you that my experience was between gratifying and frustrating.
 - What have you learned/improved?
-- Your wisdom? :)
+  I learned a little to used the selectors of advanced css  and use to classes the Bootstrap
+- Your wisdom?
+  Use selector as writing-mode, flex, flex-wrap, row-cols of Bootstrap, etc.
 
 ### Funciones
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Bootstrap.js](https://getbootstrap.com/)
 
 ## Features
 
