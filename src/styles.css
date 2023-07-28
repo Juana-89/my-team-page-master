@@ -18,8 +18,7 @@ h1 {
   margin-left: 20px !important;
 }
  
-
-.row-cols-3 img {
+.row-cols-md-3 img {
   display: block;
   max-width: 60%;
 }
@@ -83,4 +82,24 @@ h1 {
 
 .footer a {
   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .row-cols-sm-2 img {
+    display: block;
+    max-width: 80%;
+  }
+  
+  .container__title, .container__p{
+    font-size: 10px;
+  }
+  
+  .container__p p:nth-child(3){
+    margin-top: 0;
+  }
+
+  .pc{
+    margin-top: 0 !important;
+  }
 }
