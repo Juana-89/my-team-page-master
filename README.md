@@ -1,18 +1,18 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Mi equipo</h1>
-<div align="center">Solución del reto de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+<h1 align="center">My team</h1>
+<div align="center">Solution of challenge of  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
     <span> | </span>
     <a href="https://github.com/Juana-89/my-team-page-master">
-      Solución
+      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
-      Reto
+      Challenge
     </a>
   </h3>
 </div>
@@ -21,11 +21,11 @@
 
 ## Contenido
 
-- [Visión general](#visión-general)
-- [Funciones](#funciones)
-- [Contacto](#funciones)
+- [Overview](#overview)
+- [Functions](#funciones)
+- [Contact](#contact)
 
-- ## Visión general
+- ## Overview
 
 ![screenshot](https://i.ibb.co/8zhnpRt/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
@@ -40,7 +40,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Your wisdom?
   Use selector as writing-mode, flex, flex-wrap, row-cols of Bootstrap, etc.
 
-### Funciones
+### Functions
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
