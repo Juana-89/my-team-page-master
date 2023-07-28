@@ -17,9 +17,8 @@ h1 {
 .ml-5 {
   margin-left: 20px !important;
 }
-.welcome .row{
-  margin-top: 30px !important;
-}
+ 
+
 .row-cols-3 img {
   display: block;
   max-width: 60%;
@@ -61,35 +60,10 @@ h1 {
   text-align: left;
   margin-right: 120px;
   font-weight: bold;
-
 }
 
 .bottom-card {
   margin-left: 0px;
-}
-.footer {
-  text-align: center;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
-.team-members {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.team-member {
-  flex: 0 0 33.33%; /* 3 columnas en pantallas grandes */
-  padding: 15px;
-  text-align: center;
-}
-
-.team-member img {
-  max-width: 100%;
 }
 
 .container__title {
