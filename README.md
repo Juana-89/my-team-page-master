@@ -65,4 +65,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@Juana-89](https://{github.com/Juana-89})
-- Linkedin [@your-twitter](https://{www.linkedin.com/})
+- Linkedin [@your-linkedin](https://{www.linkedin.com/})
